@@ -9,6 +9,7 @@ def findSmallest(arr):
             smallest_index = i
     return smallest_index
 
+#Сортировка массива
 def selectionSort(arr):
     newArr = []
     for i in range(len(arr)):
