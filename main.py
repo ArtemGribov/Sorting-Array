@@ -17,4 +17,6 @@ def selectionSort(arr):
         newArr.append(arr.pop(smallest))
     return newArr
 
+#Примеры для проверки
 print(selectionSort([5, 3, 6, 2, 10]))
+print(selectionSort([100, 32, 60, 4, 00]))
